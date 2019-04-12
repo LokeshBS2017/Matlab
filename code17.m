@@ -1,0 +1,6 @@
+I = imread('Penguins.png');
+I = I(125+(1:256),1:256,:);
+figure;imshow(I);title('Original Image');
+text(size(I,2),size(I,1)+15, ...
+    'NIE,Mysuru', ...
+    'FontSize',7,'HorizontalAlignment','right');
